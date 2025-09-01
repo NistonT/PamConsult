@@ -6,6 +6,19 @@
 
 :root {
 	--color-pam: rgba(67, 67, 100, 1);
+	--color-pam-yellow: rgba(255, 219, 128, 1);
+	--color-pam-main: rgba(109, 49, 208, 1);
+
+	--max-width: 1440px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: var(--max-width);
+}
+
+body {
 }
 
 .headline-1 {
@@ -57,7 +70,4 @@
 	letter-spacing: 0.5%;
 	color: var(--color-pam);
 	text-transform: uppercase;
-}
-
-body {
 }
