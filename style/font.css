@@ -1,0 +1,35 @@
+/*---- Montserrat ----*/
+
+@font-face {
+	font-family: "Montserrat-600";
+	src: url("./../assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+/*---- Avenir Next ----*/
+
+@font-face {
+	font-family: "AvenirNext-600";
+	src: url("./../assets/fonts/AvenirNext/AvenirNextCyr-Demi.ttf");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AvenirNext-500";
+	src: url("./../assets/fonts/AvenirNext/AvenirNextCyr-Medium.ttf");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "AvenirNext-400";
+	src: url("./../assets/fonts/AvenirNext/AvenirNextCyr-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
