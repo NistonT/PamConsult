@@ -26,7 +26,7 @@
 						<div class="link">
 							<a href="#" class="headline-6">About us</a>
 						</div>
-						<div class="link services">
+						<div class="link service">
 							<a href="#" class="headline-6">Services</a>
 							<img src="./assets/svg/vector-bottom.svg" alt="vector" />
 						</div>
@@ -46,6 +46,7 @@
 				</div>
 			</header>
 
+			<!-- swiper -->
 			<section>
 				<div class="swiper">
 					<div class="swiper-wrapper">
@@ -288,6 +289,9 @@
 					<div class="swiper-pagination"></div>
 				</div>
 			</section>
+
+			<!-- services -->
+
 			<section class="services">
 				<div class="wrapper">
 					<h2 class="headline-2">Our services</h2>
@@ -346,6 +350,43 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- paradise -->
+
+			<section class="paradise">
+				<div class="wrapper">
+					<div class="left sides">
+						<div></div>
+					</div>
+					<div class="text">
+						<h2>Moving to Paradise</h2>
+						<p class="headline-5">
+							<span
+								>Have you ever dreamed about the perfect place to live? Your
+								definition of perfect may be different someone else’s. Are you
+								longing to live by the beach and listen to the soothing waves or
+								are you a kind of person who enjoys the bustling sounds of the
+								city? Whatever lifestyle you desire, Cyprus has it all! Whether
+								you’re travelling with your family, your partner, or as a solo
+								business entrepreneur, this exotic island can offer you a little
+								bit of everything.</span
+							>
+							<span>
+								If you’ve made the decision to relocate to Cyprus, then you are
+								expecting to find a safe place to settle. With extremely low
+								crime rate, stunning sandy beaches, and awe-inspiring mountain
+								views, Cyprus is the place to be!</span
+							>
+						</p>
+						<div class="button">
+							<button class="headline-4">Find Out More</button>
+						</div>
+					</div>
+					<div class="right sides">
+						<div></div>
+					</div>
+				</div>
+			</section>
 		</div>
 		<script type="module">
 			import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
@@ -354,10 +395,24 @@
 				direction: "vertical",
 				loop: true,
 
+				effect: "creative",
+				creativeEffect: {
+					next: {
+						translate: [0, "100%", 0],
+						opacity: 0,
+						scale: 0.9,
+					},
+					prev: {
+						translate: [0, "-100%", 0],
+						opacity: 0,
+						scale: 0.9,
+					},
+					progressMultiplier: 1.2,
+				},
+
 				pagination: {
 					el: ".swiper-pagination",
 				},
-
 				navigation: {
 					nextEl: ".swiper-button-next",
 					prevEl: ".swiper-button-prev",

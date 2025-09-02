@@ -283,8 +283,8 @@ header .button button {
 }
 
 .services .wrapper {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 78px;
+	padding-bottom: 81px;
 }
 
 .services .wrapper h2 {
@@ -295,7 +295,7 @@ header .button button {
 	width: 100%;
 	margin: 0 auto;
 	padding-bottom: 12px;
-	margin-bottom: 54px;
+	margin-bottom: 56px;
 }
 
 .services .wrapper .cards {
@@ -336,6 +336,85 @@ header .button button {
 .services .wrapper .cards .card .button button {
 	margin-top: 16px;
 	margin-bottom: 20px;
+	background: linear-gradient(96.1deg, #ffeb80 -22.07%, #fdbfa3 123.25%);
+	box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+	padding: 8px 26px;
+	border-radius: 30px;
+	color: var(--color-pam-main);
+	border: none;
+	outline: none;
+}
+
+.paradise {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.paradise .wrapper {
+	display: flex;
+}
+
+.paradise .wrapper .left {
+	background-image: url(./../assets/paradise/left.jpg);
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	background-size: cover;
+}
+
+.paradise .wrapper .right {
+	background-image: url(./../assets/paradise/right.jpg);
+	width: 50%;
+	background-size: cover;
+}
+
+.paradise .wrapper .left > div {
+	width: 20%;
+	background: #ffffff;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.paradise .wrapper .right > div {
+	width: 20%;
+	background: #ffffff;
+	height: 100%;
+	opacity: 0.5;
+}
+
+.paradise .wrapper .text {
+	max-width: 620px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 70px;
+}
+
+.paradise .wrapper .text h2 {
+	padding-top: 24px;
+	font-family: "AvenirNext-600";
+	color: #434364;
+	font-size: 40px;
+	line-height: 29px;
+	letter-spacing: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+}
+
+.paradise .wrapper .text p {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	text-align: center;
+}
+.paradise .wrapper .button {
+	display: flex;
+	justify-content: center;
+}
+
+.paradise .wrapper .button button {
+	margin-top: 26px;
+	margin-bottom: 26px;
 	background: linear-gradient(96.1deg, #ffeb80 -22.07%, #fdbfa3 123.25%);
 	box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
 	padding: 8px 26px;
