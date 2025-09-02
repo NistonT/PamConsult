@@ -86,48 +86,47 @@ header .button button {
 	opacity: 0.8;
 }
 
+.screen {
+	max-height: 800px;
+	height: 100%;
+	position: relative;
+}
+
 .screen-1 {
-	padding-top: 130px;
-	padding-bottom: 63px;
 	background-image: url("./../assets/swiper/picture_home1.png");
 	background-size: cover;
 	height: 100%;
 }
 
 .screen-2 {
-	padding-top: 216px;
-	padding-bottom: 298px;
+	padding-top: 86px;
 	background-image: url("./../assets/swiper/offer2_image.png");
 	background-size: cover;
 }
 
 .screen-3 {
-	padding-top: 180px;
-	padding-bottom: 360px;
+	padding-top: 50px;
 	background-image: url("./../assets/swiper/offer3_image.png");
 	background-size: cover;
 	position: relative;
 }
 
 .screen-4 {
-	padding-top: 180px;
-	padding-bottom: 360px;
+	padding-top: 50px;
 	background-image: url("./../assets/swiper/business1.png");
 	background-size: cover;
 	position: relative;
 }
 
 .screen-5 {
-	padding-top: 180px;
-	padding-bottom: 360px;
+	padding-top: 50px;
 	background-image: url("./../assets/swiper/offer5_image.png");
 	background-size: cover;
 	position: relative;
 }
 
 .screen-6 {
-	padding-top: 180px;
-	padding-bottom: 360px;
+	padding-top: 50px;
 	background-image: url("./../assets/swiper/offer6_image.png");
 	background-size: cover;
 	position: relative;
@@ -179,6 +178,8 @@ header .button button {
 }
 
 .screen .wrapper {
+	position: relative;
+	top: 130px;
 	max-width: 1124px;
 	margin: 0 auto;
 }
@@ -256,7 +257,7 @@ header .button button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 5px;
+	padding-top: 7px;
 }
 
 .screen .cities .cards .card {
@@ -274,4 +275,72 @@ header .button button {
 	margin-top: 10px;
 	margin-bottom: 3px;
 	color: #828cde;
+}
+
+.services {
+	background: linear-gradient(180deg, #828cde -21.43%, #6d31d0 201.93%);
+	width: 100%;
+}
+
+.services .wrapper {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.services .wrapper h2 {
+	text-align: center;
+	color: white;
+	border-bottom: 4px solid #fdbfa3;
+	max-width: 380px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 12px;
+	margin-bottom: 54px;
+}
+
+.services .wrapper .cards {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.services .wrapper .cards .card {
+	background-color: white;
+	max-width: 380px;
+	width: 100%;
+	max-height: 515px;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.services .wrapper .cards .card h3 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+
+.services .wrapper .cards .card p {
+	padding: 0 30px;
+	text-align: center;
+}
+
+.services .wrapper .cards .card .button {
+	display: flex;
+	justify-content: center;
+}
+
+.services .wrapper .cards .card .button button {
+	margin-top: 16px;
+	margin-bottom: 20px;
+	background: linear-gradient(96.1deg, #ffeb80 -22.07%, #fdbfa3 123.25%);
+	box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+	padding: 8px 26px;
+	border-radius: 30px;
+	color: var(--color-pam-main);
+	border: none;
+	outline: none;
 }
