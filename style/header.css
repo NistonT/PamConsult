@@ -1,0 +1,50 @@
+header {
+	background: linear-gradient(90.49deg, #53269d 0%, #6d31d0 100.2%);
+
+	padding: 20px 0 20px 0;
+}
+
+header .wrapper {
+	max-width: 1240px;
+	padding-left: 30px;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+}
+
+header .logo > img {
+	max-width: 120px;
+}
+
+header nav {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	gap: 28px;
+}
+
+header .services {
+	display: flex;
+	gap: 4px;
+	padding-bottom: 1px;
+}
+
+header .link a {
+	text-decoration: none;
+	letter-spacing: 140%;
+	color: white;
+}
+
+header .button button {
+	background-color: var(--color-pam-yellow);
+	box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+	padding: 8px 26.5px;
+	border-radius: 30px;
+	color: var(--color-pam-main);
+	border: none;
+	outline: none;
+}
