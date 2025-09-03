@@ -1,0 +1,199 @@
+.cyprus-map {
+	position: relative;
+	width: 100%;
+	background-color: #fffcf2;
+	padding-bottom: 35px;
+	height: 718.75px;
+}
+
+.cyprus-map .wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cyprus-map .wrapper .right {
+	padding-top: 80px;
+	padding-left: 129px;
+	width: 100%;
+	position: relative;
+}
+
+.cyprus-map .wrapper .right h4 {
+	padding-top: 20px;
+	padding-bottom: 1px;
+}
+
+.cyprus-map .wrapper .left {
+	width: 100%;
+	position: relative;
+	margin-left: 20px;
+}
+
+.cyprus-map .wrapper h3 {
+	color: var(--color-pam-main);
+}
+
+.cyprus-map .wrapper .map {
+	position: relative;
+}
+
+.cyprus-map .wrapper .map > img {
+	position: relative;
+	max-width: 681px;
+}
+
+.cyprus-map .wrapper .map .larnaka {
+	position: absolute;
+	top: 51.1%;
+	right: 29.5%;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.cyprus-map .wrapper .map .larnaka:hover {
+	transform: scale(1.2);
+	z-index: 100;
+}
+
+.cyprus-map .wrapper .map .larnaka img {
+	max-width: 224px;
+}
+
+.cyprus-map .wrapper .map .limassol {
+	position: absolute;
+	top: 64%;
+	right: 56%;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.cyprus-map .wrapper .map .limassol:hover {
+	transform: scale(1.2);
+	z-index: 100;
+}
+
+.cyprus-map .wrapper .map .limassol img {
+	max-width: 187px;
+}
+
+.cyprus-map .wrapper .map .nicosia {
+	position: absolute;
+	top: 36.7%;
+	right: 42.5%;
+	transition: 300ms;
+	cursor: pointer;
+}
+.cyprus-map .wrapper .map .nicosia img {
+	max-width: 299px;
+}
+
+.cyprus-map .wrapper .map .nicosia:hover {
+	transform: scale(1.2);
+	z-index: 100;
+}
+
+.cyprus-map .wrapper .map .paphos {
+	position: absolute;
+	top: 45.8%;
+	left: 0.5%;
+	transition: 300ms;
+	cursor: pointer;
+}
+
+.cyprus-map .wrapper .map .paphos img {
+	max-width: 154px;
+}
+
+.cyprus-map .wrapper .map .paphos:hover {
+	transform: scale(1.2);
+	z-index: 100;
+}
+
+.cyprus-map .wrapper .map .map-1 {
+	position: absolute;
+	top: 27.5%;
+	right: 39.9%;
+}
+
+.cyprus-map .wrapper .map .map-1 img {
+	max-width: 216px;
+}
+
+.cyprus-map .wrapper .map .map-2 {
+	position: absolute;
+	top: 0.5%;
+	right: 0.5%;
+}
+
+.cyprus-map .wrapper .map .map-2 img {
+	max-width: 302px;
+}
+
+.cyprus-map .wrapper .map h5 {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	user-select: none;
+}
+
+.cyprus-map .wrapper .map .rap {
+	color: white;
+}
+
+.cyprus-map .wrapper .map .lim {
+	color: white;
+}
+
+.cyprus-map .wrapper .left .info {
+	margin-top: 26px;
+	max-width: 480px;
+	padding-bottom: 28px;
+	box-shadow: 12.8px 15.36px 13px 0px #00000009;
+	background-color: #fff;
+	border: 12px;
+}
+
+.cyprus-map .wrapper .left .info .text {
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.cyprus-map .wrapper .left .info .text h4 {
+	margin-top: 4px;
+}
+
+.cyprus-map .wrapper .left .info .text p {
+	margin-top: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.cyprus-map .wrapper .left .info .cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5px;
+	padding: 13px 11px;
+}
+
+.cyprus-map .wrapper .left .info .cards .card {
+	width: 146px;
+	height: 156px;
+	overflow: hidden;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	position: relative;
+}
+
+.cyprus-map .wrapper .left .info .cards .card img {
+	width: 146px;
+	height: 154px;
+	object-fit: cover;
+	scale: 1.1;
+}
