@@ -1,0 +1,67 @@
+.services {
+	background: linear-gradient(180deg, #828cde -21.43%, #6d31d0 201.93%);
+	width: 100%;
+}
+
+.services .wrapper {
+	padding-top: 78px;
+	padding-bottom: 81px;
+}
+
+.services .wrapper h2 {
+	text-align: center;
+	color: white;
+	border-bottom: 4px solid #fdbfa3;
+	max-width: 380px;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 12px;
+	margin-bottom: 56px;
+}
+
+.services .wrapper .cards {
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.services .wrapper .cards .card {
+	background-color: white;
+	max-width: 380px;
+	width: 100%;
+	max-height: 515px;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.services .wrapper .cards .card h3 {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	padding-bottom: 14px;
+}
+
+.services .wrapper .cards .card p {
+	padding: 0 30px;
+	text-align: center;
+}
+
+.services .wrapper .cards .card .button {
+	display: flex;
+	justify-content: center;
+}
+
+.services .wrapper .cards .card .button button {
+	margin-top: 16px;
+	margin-bottom: 20px;
+	background: linear-gradient(96.1deg, #ffeb80 -22.07%, #fdbfa3 123.25%);
+	box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
+	padding: 8px 26px;
+	border-radius: 30px;
+	color: var(--color-pam-main);
+	border: none;
+	outline: none;
+}
