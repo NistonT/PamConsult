@@ -19,6 +19,14 @@
 /*---- Avenir Next ----*/
 
 @font-face {
+	font-family: "AvenirNext-700";
+	src: url("./../assets/fonts/AvenirNext/AvenirNextCyr-Bold.ttf");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
 	font-family: "AvenirNext-600";
 	src: url("./../assets/fonts/AvenirNext/AvenirNextCyr-Demi.ttf");
 	font-weight: bold;
